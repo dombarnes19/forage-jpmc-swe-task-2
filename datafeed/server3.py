@@ -23,7 +23,7 @@ from random import normalvariate, random
 from datetime import timedelta, datetime
 
 import csv
-import dateutil.parser
+
 import os.path
 
 import operator
@@ -339,4 +339,4 @@ if __name__ == '__main__':
     if not os.path.isfile('test.csv'):
         print("No data found, generating...")
         generate_csv()
-    run(App())
+    run(App)
